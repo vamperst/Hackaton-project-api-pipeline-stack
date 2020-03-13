@@ -14,7 +14,7 @@ def main(event, context):
     
     
     responsePipeline = codepipeline.start_pipeline_execution(
-        name='hackaton-cicd-deploy',
+        name='hackathon-CD-app-stack',
     )
     
     response = {
