@@ -10,7 +10,7 @@ provider:
       Action:
         - "codepipeline:*"
       Resource: 
-        - "arn:aws:codepipeline:us-east-1:*:hackaton-cicd-deploy"
+        - "arn:aws:codepipeline:us-east-1:*:hackathon-CD-app-stack"
         
 
 
